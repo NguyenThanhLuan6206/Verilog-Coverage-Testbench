@@ -1,0 +1,15 @@
+sim/work/
+*.dbg
+*.ini
+*.log
+*.wlf
+*.ucdb
+run_test.v
+coverage/
+log/
+modelsim.ini
+rep.log
+.DS_Store
+.vscode/
+*.o
+*.a
