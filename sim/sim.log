@@ -1,0 +1,34 @@
+# vsim -coverage -l tworun.log -c testbench -voptargs="+cover=bcesft" -assertdebug -do "coverage save -onexit tworun.ucdb; log -r /*;run -all" 
+# Start time: 20:51:56 on May 22,2026
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading work.testbench(fast)
+# coverage save -onexit tworun.ucdb
+#  log -r /*
+# run -all
+# 0 a=0, b=0, z=0
+# Test 1 PASS: a=0, b=0, z=0
+# 10 a=0, b=1, z=1
+# Test 2 PASS: a=0, b=1, z=1
+# 20 a=1, b=0, z=1
+# Test 3 PASS: a=1, b=0, z=1
+# 30 a=1, b=1, z=0
+# Test 4 PASS: a=1, b=1, z=0
+# ** Note: $finish    : run_test.v(36)
+#    Time: 40 ns  Iteration: 0  Instance: /testbench
+# Saving coverage database on exit...
+# End time: 20:51:57 on May 22,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
